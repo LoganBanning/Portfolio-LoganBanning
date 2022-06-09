@@ -8,8 +8,6 @@ import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
-import ServiceList from "../elements/service/ServiceList";
-import BlogContent from "../elements/blog/BlogContent";
 
 const SlideList = [
     {
@@ -22,8 +20,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
-    const PostList = BlogContent.slice(0 , 3);
+        description = "I am a Full-Stack Web Developer who has recently Graduated from Devmountain, Before becoming a Web Developer I worked in the a few different sales roles. Being in that competitive environment I knew I had to show up each day and work hard. I also love being able to be creative in making websites or solving any problems that come up. I'm a willing worker that enjoys continually learning new Skills.";
     return (
         <div className="active-dark">
             <Helmet pageTitle="Portfolio Landing" />
@@ -101,8 +98,8 @@ const PortfolioLanding = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                        <h2 className="title">My Latest Project</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <h2 className="title">My Latest Projects</h2>
+                                        <p>All projects were built with React and Node.js</p>
                                     </div>
                                 </div>
                             </div>
@@ -121,44 +118,7 @@ const PortfolioLanding = () => {
                 </div>
             </div>
             {/* End Portfolio Area */}
-
-            {/* Start Blog Area */}
-            <div id="blog" className="fix">
-                <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
-                    <div className="container">
-                        <div className="row align-items-end">
-                            <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                                <div className="section-title text-center">
-                                    <h2>Latest News</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, <br />but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row mt--60 mt_sm--40">
-                            {PostList.map((value , i ) => (
-                                <div className="col-lg-4 col-md-6 col-12" key={i}>
-                                    <div className="blog blog-style--1">
-                                        <div className="thumbnail">
-                                            <a href="/blog-details">
-                                                <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
-                                            </a>
-                                        </div>
-                                        <div className="content">
-                                            <p className="blogtype">{value.category}</p>
-                                            <h4 className="title"><a href="/blog-details">{value.title}</a></h4>
-                                            <div className="blog-btn">
-                                                <a className="rn-btn text-white" href="/blog-details">Read More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>    
-                    </div>    
-                </div>
-            </div>
-            {/* End Blog Area */}
-
+            
             {/* Start COntact Area */}
             <div id="contact" className="fix">
                 <div className="rn-contact-area ptb--120 bg_color--1">

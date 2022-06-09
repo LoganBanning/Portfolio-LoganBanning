@@ -4,18 +4,18 @@ import {Link} from "react-router-dom";
 const PortfolioListContent = [
     {
         image: 'image-1',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'E-commerce',
+        title: 'Ape Apparel'
     },
     {
         image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Music Streaming',
+        title: 'Spotify Clone'
     },
     {
         image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Project',
+        title: 'Lorem Ipsum Posts'
     },
     {
         image: 'image-4',
