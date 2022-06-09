@@ -15,7 +15,7 @@ const SlideList = [
     {
         textPosition: 'text-left',
         category: 'Welcome to my World',
-        description: '',
+        description: "",
         buttonText: '',
         buttonLink: ''
     }
@@ -40,14 +40,16 @@ const PortfolioLanding = () => {
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Hi, I’m Jone Doe <br/>
+                                            <h1 className="title">Hi, I’m Logan Banning <br/>
                                             <TextLoop>
-                                                <span> JS Developer.</span>
-                                                <span> UI/UX Designer.</span>
-                                                <span> Content Writter.</span>
+                                                <span>React</span>
+                                                <span>JavaScript</span>
+                                                <span>Node.js</span>
+                                                <span>HTML & CSS</span>
+                                                <span>SQL</span>
                                             </TextLoop>{" "}
                                             </h1>
-                                            <h2>based in USA.</h2>
+                                            <h2>Front-End Web Developer</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
                                         </div>
@@ -90,28 +92,6 @@ const PortfolioLanding = () => {
             </div>
             
             {/* End About Area */}
-
-            {/* Start Service Area  */}
-            <div id="service" className="fix">
-                <div className="service-area creative-service-wrapper ptb--120 bg_color--5" >
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                    <h2 className="title">My Awesome Service</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row creative-service">
-                            <div className="col-lg-12">
-                                <ServiceList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-            {/* End Service Area  */} 
 
             {/* Start Portfolio Area */}
             <div id="portfolio" className="fix">
