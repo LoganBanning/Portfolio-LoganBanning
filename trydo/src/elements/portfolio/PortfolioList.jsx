@@ -5,7 +5,8 @@ const PortfolioListContent = [
     {
         image: 'image-1',
         category: 'E-commerce',
-        title: 'Ape Apparel'
+        title: 'Ape Apparel',
+        url: 'https://www.apeapparel.xyz'
     },
     {
         image: 'image-2',
@@ -16,21 +17,6 @@ const PortfolioListContent = [
         image: 'image-3',
         category: 'Project',
         title: 'Lorem Ipsum Posts'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
     }
 ]
 
@@ -56,7 +42,7 @@ class PortfolioList extends Component{
                                     </div>
                                 </div>
                             </div>
-                            <Link className="link-overlay" to="/portfolio-details"></Link>
+                            <Link className="link-overlay" to={`/${value.url}`}></Link>
                         </div>
                     </div>
                 ))}

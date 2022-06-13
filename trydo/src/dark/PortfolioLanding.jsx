@@ -31,7 +31,7 @@ const PortfolioLanding = () => {
                 <div className="slider-wrapper">
                     {/* Start Single Slide */}
                     {SlideList.map((value , index) => (
-                        <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--25" key={index}>
+                        <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image headshot-logan.jpg" key={index}>
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-12">
@@ -68,7 +68,7 @@ const PortfolioLanding = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-8.jpg" alt="About Images"/>
+                                        <img className="w-100" src="/assets/images/bg/headshot-logan.jpg" alt="Picture of Logan Banning"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
@@ -106,13 +106,6 @@ const PortfolioLanding = () => {
                             <div className="row">
                                 <PortfolioList styevariation="text-center mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="6" />
                             </div>
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    <div className="view-more-btn mt--60 mt_sm--30 text-center">
-                                        <a className="rn-button-style--2 btn-solid" href="/blog"><span>View More</span></a>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -122,7 +115,7 @@ const PortfolioLanding = () => {
             {/* Start COntact Area */}
             <div id="contact" className="fix">
                 <div className="rn-contact-area ptb--120 bg_color--1">
-                    <ContactThree contactImages="/assets/images/about/about-9.jpg" contactTitle="Hire Me." />
+                    <ContactThree contactImages="/assets/images/bg/Logan-picture-AF.jpg" contactTitle="Hire Me." />
                 </div>
             </div>
             {/* End COntact Area */}
