@@ -6,17 +6,19 @@ const PortfolioListContent = [
         image: 'image-1',
         category: 'E-commerce',
         title: 'Ape Apparel',
-        url: 'https://www.apeapparel.xyz'
+        url: 'http://www.apeapparel.xyz'
     },
     {
         image: 'image-2',
         category: 'Music Streaming',
-        title: 'Spotify Clone'
+        title: 'Spotify Clone',
+        url: 'https://www.spotifyclonelogan.xyz'
     },
     {
         image: 'image-3',
         category: 'Project',
-        title: 'Lorem Ipsum Posts'
+        title: 'Lorem Ipsum Posts',
+        url: 'https://celadon-narwhal-77f5d8.netlify.app'
     }
 ]
 
@@ -38,11 +40,10 @@ class PortfolioList extends Component{
                                     <p>{value.category}</p>
                                     <h4><a href="/portfolio-details">{value.title}</a></h4>
                                     <div className="portfolio-button">
-                                        <a className="rn-btn" href="/portfolio-details">View Details</a>
+                                        <a className="rn-btn" href={value.url}>View Details</a>
                                     </div>
                                 </div>
                             </div>
-                            <Link className="link-overlay" to={`/${value.url}`}></Link>
                         </div>
                     </div>
                 ))}
