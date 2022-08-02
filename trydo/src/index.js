@@ -62,10 +62,11 @@ import * as serviceWorker from './serviceWorker';
 class Root extends Component{
     render(){
         return(
-            <BrowserRouter basename={'https://logan-banning-portfolio.netlify.app'}>
+            <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
-                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding}/>
+                        <Route exact path={`https://logan-banning-portfolio.netlify.app/`} component={DarkPortfolioLanding}/>
+                        {/* <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkPortfolioLanding}/> */}
                         <Route exact path={`${process.env.PUBLIC_URL}/demo`} component={Demo}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/dark-main-demo`} component={DarkMainDemo}/>
