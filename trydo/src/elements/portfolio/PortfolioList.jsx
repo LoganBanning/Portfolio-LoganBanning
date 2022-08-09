@@ -8,12 +8,12 @@ const PortfolioListContent = [
         title: 'Ape Apparel',
         url: 'http://www.apeapparel.xyz'
     },
-    {
-        image: 'image-2',
-        category: 'Music Streaming',
-        title: 'Spotify Clone',
-        url: 'https://www.spotifyclonelogan.xyz'
-    },
+    // {
+    //     image: 'image-2',
+    //     category: 'Music Streaming',
+    //     title: 'Spotify Clone',
+    //     url: 'https://www.spotifyclonelogan.xyz'
+    // },
     {
         image: 'image-3',
         category: 'Project',

@@ -46,7 +46,7 @@ const PortfolioLanding = () => {
                                                 <span>SQL</span>
                                             </TextLoop>{" "}
                                             </h1>
-                                            <h2>Front-End Web Developer</h2>
+                                            <h2>Full Stack Web Developer</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
                                         </div>
