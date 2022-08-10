@@ -115,7 +115,7 @@ const PortfolioLanding = () => {
             {/* Start COntact Area */}
             <div id="contact" className="fix">
                 <div className="rn-contact-area ptb--120 bg_color--1">
-                    <ContactThree contactImages="/assets/images/bg/Logan-picture-AF.jpg" contactTitle="Hire Me." />
+                    <ContactThree contactImages="/assets/images/bg/Logan-picture-bell-canyon.jpg" contactTitle="Hire Me." />
                 </div>
             </div>
             {/* End COntact Area */}
