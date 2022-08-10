@@ -20,7 +20,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = "I am a Full-Stack Web Developer who has recently graduated from Devmountain.  Before becoming a Web Developer, I worked in a few different sales roles. Being in that competitive environment, I knew I had to show up each day and work hard. I also love being able to be creative in making websites or solving any problems that come up. I'm a willing worker that enjoys continually learning new skills.";
+        description = "As a recent graduate from the DevMountain Full Stack Web Developer program, I'm looking forward to channeling my creative energy and apply my full-stack skill set towards web design and problem solving.  With a background in sales, my drive and determination have helped me consistently earn top recognition in every position I've held.  I'm planning on utilizing the same drive and determination towards web development";
     return (
         <div className="active-dark">
             <Helmet pageTitle="Portfolio Landing" />
@@ -37,7 +37,7 @@ const PortfolioLanding = () => {
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Hi, I’m Logan Banning <br/>
+                                            <h1 className="title">Hi, I’m Logan.<br/>
                                             <TextLoop>
                                                 <span>React</span>
                                                 <span>JavaScript</span>

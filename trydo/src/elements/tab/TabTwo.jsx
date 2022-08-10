@@ -29,7 +29,14 @@ class TabsTwo extends Component{
                                                 </li>
                                                 <li>
                                                     <a href="/service">Web and user interface design<span> - Development</span></a>
-                                                    Websites, web experiences, ...
+                                                    React.js 
+                                                    - Node.js
+                                                    - Express.js 
+                                                    - JavaScript
+                                                    - HTML5
+                                                    - CSS3
+                                                    - Redux
+                                                    - PostgresSQL
                                                 </li>
                                             </ul>
                                         </div>
@@ -39,10 +46,10 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Certificate of Completion<span> - DevMountain </span></a> 2022
+                                                   <a href="/service">DevMountain<span> - Certificate of Completion in Full Stack Web Development </span></a> 2022
                                                </li>
                                                <li>
-                                                   <a href="/service">Associates of Science<span> - Utah State University</span></a> 2012
+                                                   <a href="/service">Utah State University<span> - Associate of Science</span></a> 2012
                                                </li>
                                            </ul>
                                        </div>

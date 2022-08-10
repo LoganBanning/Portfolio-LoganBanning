@@ -30,7 +30,7 @@ const FooterTwo = () => {
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                         <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
                             <div className="text">
-                                <p>Template developed by Logan Banning</p>
+                                <p>Logan Banning</p>
                             </div>
                         </div>
                     </div>
