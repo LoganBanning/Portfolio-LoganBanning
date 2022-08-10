@@ -20,7 +20,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = "As a recent graduate from the DevMountain Full Stack Web Developer program, I'm looking forward to channeling my creative energy and apply my full-stack skill set towards web design and problem solving.  With a background in sales, my drive and determination have helped me consistently earn top recognition in every position I've held.  I'm planning on utilizing the same drive and determination towards web development";
+        description = "As a recent graduate from the DevMountain Full Stack Web Developer program, I'm looking forward to channeling my creative energy and apply my full-stack skill set towards web design and problem solving.  With a background in sales, my drive and determination have helped me consistently earn top recognition in every position I've held.  I'm planning on utilizing the same drive and determination towards web development.";
     return (
         <div className="active-dark">
             <Helmet pageTitle="Portfolio Landing" />
