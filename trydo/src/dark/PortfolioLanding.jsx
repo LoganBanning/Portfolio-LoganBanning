@@ -99,7 +99,6 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                         <h2 className="title">My Latest Projects</h2>
-                                        <p>All projects were built with React and Node.js</p>
                                     </div>
                                 </div>
                             </div>
