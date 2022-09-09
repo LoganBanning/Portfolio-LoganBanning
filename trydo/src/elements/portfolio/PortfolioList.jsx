@@ -40,7 +40,7 @@ class PortfolioList extends Component{
                                     <p>{value.category}</p>
                                     <h4><a href="/portfolio-details">{value.title}</a></h4>
                                     <div className="portfolio-button">
-                                        <a className="rn-btn" href={value.url}>View Details</a>
+                                        <a className="rn-btn" href={value.url} target='_blank' >View Details</a>
                                     </div>
                                 </div>
                             </div>
