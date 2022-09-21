@@ -17,8 +17,8 @@ const PortfolioListContent = [
     {
         image: 'image-3',
         category: 'Project',
-        title: 'Lorem Ipsum Posts',
-        url: 'https://celadon-narwhal-77f5d8.netlify.app'
+        title: 'Spotify Clone',
+        url: 'https://starfish-app-bv92g.ondigitalocean.app/'
     }
 ]
 
