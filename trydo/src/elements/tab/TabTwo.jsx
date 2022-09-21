@@ -36,7 +36,7 @@ class TabsTwo extends Component{
                                                     - HTML5
                                                     - CSS3
                                                     - Redux
-                                                    - PostgresSQL
+                                                    - PostgreSQL
                                                 </li>
                                             </ul>
                                         </div>
