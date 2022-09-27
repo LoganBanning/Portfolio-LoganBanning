@@ -99,6 +99,7 @@ const PortfolioLanding = () => {
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                         <h2 className="title">My Latest Projects</h2>
+                                        <p>For the Spotify app I would need to add you to my users list to be able to pull the data because of Spotify's content rules.  Send me an email and I'd be happy to add you. </p>
                                     </div>
                                 </div>
                             </div>
