@@ -19,13 +19,13 @@ const PortfolioListContent = [
         category: 'Project',
         title: 'Student info page',
         url: 'https://cerulean-chimera-c6adbf.netlify.app/'
-    },
-    {
-        image: 'image-3',
-        category: 'Project',
-        title: 'Spotify Clone',
-        url: 'https://starfish-app-bv92g.ondigitalocean.app/'
     }
+    // {
+    //     image: 'image-3',
+    //     category: 'Project',
+    //     title: 'Spotify Clone',
+    //     url: 'https://starfish-app-bv92g.ondigitalocean.app/'
+    // }
 ]
 
 class PortfolioList extends Component{
