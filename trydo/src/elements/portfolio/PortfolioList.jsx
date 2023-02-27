@@ -1,15 +1,14 @@
 import React, { Component } from "react";
-import {Link} from "react-router-dom";
 
 const PortfolioListContent = [
-    // {
-    //     image: 'image-1',
-    //     category: 'E-Commerce',
-    //     title: 'Ape Apparel',
-    //     url: 'http://www.apeapparel.xyz'
-    // },
     {
         image: 'image-1',
+        category: 'E-Commerce',
+        title: 'Ape Apparel',
+        url: 'http://www.apeapparel.xyz'
+    },
+    {
+        image: 'image-3',
         category: 'Project',
         title: 'Monster Rolodex',
         url: 'https://delightful-palmier-b62036.netlify.app/'
