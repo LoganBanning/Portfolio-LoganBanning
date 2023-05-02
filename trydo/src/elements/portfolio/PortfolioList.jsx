@@ -24,18 +24,25 @@ const PortfolioListContent = [
         category: 'Project',
         title: 'Picture In Picture',
         url: 'https://loganbanning.github.io/picture-in-picture/'
+    },
+    {
+        image: 'image-5',
+        category: 'Project',
+        title: 'Infinite Scroll',
+        url: 'https://loganbanning.github.io/infinite-scroll-project/'
     }
 ]
 
 class PortfolioList extends Component{
     render(){
-        const {column , styevariation } = this.props;
+        const {column , stylevariation } = this.props;
+        console.log('props', this.props);
         const list = PortfolioListContent.slice(0 , this.props.item);
         return(
             <React.Fragment> 
                 {list.map((value , index) => (
                     <div className={`${column}`} key={index}>
-                        <div className={`portfolio ${styevariation}`}>
+                        <div className={`portfolio ${stylevariation}`}>
                             <div className="thumbnail-inner">
                                 <div className={`thumbnail ${value.image}`}></div>
                                 <div className={`bg-blr-image ${value.image}`}></div>
