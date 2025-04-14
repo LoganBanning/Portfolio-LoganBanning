@@ -44,6 +44,8 @@ const PortfolioLanding = () => {
                                                 <span>Node.js</span>
                                                 <span>HTML & CSS</span>
                                                 <span>PostgreSQL</span>
+                                                <span>SQL Server</span>
+                                                <span>C#</span>
                                             </TextLoop>{" "}
                                             </h1>
                                             <h2>Full Stack Web Developer</h2>

@@ -2,12 +2,6 @@ import React, { Component } from "react";
 
 const PortfolioListContent = [
     {
-        image: 'image-1',
-        category: 'E-Commerce',
-        title: 'Ape Apparel',
-        url: 'http://www.apeapparel.xyz'
-    },
-    {
         image: 'image-3',
         category: 'Project',
         title: 'Monster Rolodex',
