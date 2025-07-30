@@ -101,23 +101,6 @@ class Contact extends Component{
                     <ContactTwo />
                 </div>
                 {/* End Contact Page Area  */}
-
-                {/* Start Contact Map  */}
-                <div className="rn-contact-map-area position-relative">
-                    <div style={{ height: '650px', width: '100%' }}>
-                        <GoogleMapReact
-                        defaultCenter={this.props.center}
-                        defaultZoom={this.props.zoom}
-                        >
-                        <AnyReactComponent
-                            lat={59.955413}
-                            lng={30.337844}
-                            text="My Marker"
-                        />
-                        </GoogleMapReact>
-                    </div>
-                </div>
-                {/* End Contact Map  */}
                 
 
                 {/* Start Brand Area */}
