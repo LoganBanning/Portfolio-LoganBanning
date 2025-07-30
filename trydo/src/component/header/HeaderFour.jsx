@@ -111,7 +111,6 @@ class HeaderFour extends Component{
                                         <li><Link to="/blog">Blog List</Link></li>
                                         <li><Link to="/clint-logo">Clint Logo</Link></li>
                                         <li><Link to="/contact-form">Contact Form</Link></li>
-                                        <li><Link to="/google-map">Google Map</Link></li>
                                         <li><Link to="/columns">Columns</Link></li>
                                         <li><Link to="/pricing-table">Pricing Table</Link></li>
                                     </ul>

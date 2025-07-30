@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import GoogleMapReact from 'google-map-react';
 import { FiChevronUp } from "react-icons/fi";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
@@ -22,7 +21,6 @@ class GoogleMap extends Component {
     render() {
         return (
             <>
-                <PageHelmet pageTitle='Google Map' />
 
                 {/* Start Header Area  */}
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
