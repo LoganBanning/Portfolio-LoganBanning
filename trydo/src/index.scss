@@ -1,5 +1,8 @@
 // All Css Here
 $body-font-size: 16px !default;
 
-@import url("../public/assets/css/plugins.css");  /* if you still need this */
-@use "../public/assets/scss/style" as *;          /* your SCSS */
+@use "../public/assets/scss/style" as *;  /* must be first */
+
+/* if you still need your own compiled CSS file */
+@import url("../public/assets/css/plugins.css");
+
