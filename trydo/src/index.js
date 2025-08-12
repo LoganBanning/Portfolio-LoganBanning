@@ -13,6 +13,7 @@ import DarkPortfolioLanding from './dark/PortfolioLanding';
 
 // Element Layout
 import error404 from "./elements/error404";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 // Blocks Layout
