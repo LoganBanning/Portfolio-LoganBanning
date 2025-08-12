@@ -1,10 +1,5 @@
 // All Css Here
 $body-font-size: 16px !default;
 
-
-@use '~bootstrap/dist/css/bootstrap.min.css' as *;
-@use "../public/assets/css/plugins.css" as *;
-@use "../public/assets/scss/style" as *;
-@use "~slick-carousel/slick/slick.css" as *;
-@use "~slick-carousel/slick/slick-theme.css" as *;
-@use 'node_modules/react-modal-video/scss/modal-video.scss' as *;
+@import url("../public/assets/css/plugins.css");  /* if you still need this */
+@use "../public/assets/scss/style" as *;          /* your SCSS */

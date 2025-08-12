@@ -14,6 +14,10 @@ import DarkPortfolioLanding from './dark/PortfolioLanding';
 // Element Layout
 import error404 from "./elements/error404";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import 'react-modal-video/css/modal-video.css';
+
 
 
 // Blocks Layout
